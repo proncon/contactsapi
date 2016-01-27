@@ -405,13 +405,15 @@ $app->put('/:candidate/:addressbookid/contacts/:contactname/', function ($candid
 	//echo "PUT {$candidate}/{$addressbookid}/contacts/\n";
 	$body = $app->request()->getBody();
 	$data = json_decode($body, true);
-
+	$gpId="0";
+	if(isset($data['groupId']))
+		$gpId=$data['groupId'];
 	$datas = $database->update("Contact", [
 		"name" => $data['name'],
 		"phone" => $data['phone'],
 		"pictureUrl" => $data['pictureUrl'],
 		"email" => $data['email'],
-		"groupId" => "0"
+		"groupId" => $gpId
 	],[
 		"AND"=> [
 			"id_adressbook[=]" => $addressbookid,

@@ -15,7 +15,7 @@ $config = [
     'client_id' => "55493798955-olcchs77135pb7hu1a758uod4bsl332r.apps.googleusercontent.com",
     'client-secret' => "Iq0yM00-xLMfg7DG6CuD4cCR",
 ];
-$headers=array('Authorization' => "Bearer ya29.dgIMgS94yIGJMobJRc5sVyab3abVPsfxpOKCxIAgQy28x1SnKaRERFQ-uHGd-S8uKDYd");
+$headers=array('Authorization' => "Bearer ya29.dgKflSuNS-e_lCGhxwkq4vt07uKgpTiS4RsC7WorwXA-MVtvYj8F9k_BHTDYPvfLepI6");
 
 $candidate="paulo";
 $candidateaddressbookid="37";

@@ -1,5 +1,0 @@
-{
-  "require": {
-       "rapidwebltd/php-google-contacts-v3-api": "dev-master"
-   }
-}

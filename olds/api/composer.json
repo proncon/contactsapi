@@ -1,0 +1,21 @@
+{
+    "name": "pr/address-book",
+    "description": "RESTful API for contacts management",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Paulo Roncon",
+            "email": "proncon@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "~6.0",
+        "slim/slim": "~2.0",
+        "catfan/Medoo": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "API": "lib/"
+        }
+    }
+}

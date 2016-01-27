@@ -1,0 +1,12 @@
+ {
+   "require": {
+      "guzzlehttp/guzzle": "~6.0",
+        "slim/slim": "~2.0",
+        "catfan/Medoo": "*"
+    },
+   "autoload": {
+      "psr-0": {
+          "API": "lib/"
+      }
+    }
+}
